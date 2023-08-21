@@ -1,0 +1,39 @@
+.login__bg {
+  height: 100vh;
+  cursor: pointer;
+}
+
+.login__bg h1 {
+  color: rgb(4, 240, 240);
+}
+
+.login__signupBtn {
+  font-size: 20px;
+}
+
+.mb-4 {
+  font-size: 20px;
+}
+
+.login__signupBtn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.login__container {
+  height: 100%;
+}
+
+.signup__purchaseCodeInp {
+  width: 70px;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin-left: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .login__border {
+    border: 0 !important;
+  }
+}
